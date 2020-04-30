@@ -12,7 +12,7 @@ I think the usage will be something like
 ```
 {
     "require": {
-        "monolog/monolog": "1.0.*"
+        "tweemeterstudio/payment-icons": "1.0.*"
     }
 }
 ```
