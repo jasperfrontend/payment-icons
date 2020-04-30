@@ -20,7 +20,15 @@ I think the usage will be something like
 ```
 You need to of course mind the path/to/ part when including the payment-icons.min.css file. The css file and `/assets` folder should reside in the same directory!
 ## Usage
-To use the payment icons you can simply include an `<i class="payment-icons"><span class="paypal mastercard ideal"></span></i>` HTML tag to your page, where the classes of the `<span>` decide which payment provider icons are shown. The full list of available payment providers are mentioned below.
+To use the payment icons you can simply include 
+```
+<ins class="payment-icons">
+    <i class="paypal"></i>
+    <i class="mastercard"></i>
+    <i class="ideal"></i>
+</ins>
+```
+to your page, where the classes of the `<i>` within the `<ins>` decide which payment provider icons are shown. The full list of available payment providers are mentioned below.
 ## List of available payment providers and its corresponding CSS class
 | Payment Provider  | CSS Class |
 |---|---|
