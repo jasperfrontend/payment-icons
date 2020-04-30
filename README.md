@@ -1,12 +1,10 @@
 # payment-icons
-Payment Provider Icons
-
+Payment Provider Icons with font-awesome-style markup
 ## Description
 This provides an easy way to include payment provider icons in your website or app. It's always a hassle to get a list of supported payment providers so we usually resort to Google Images to steal somebody else's work - And I know you did that, just like I did.
 
 Since stealing isn't good I decided to stop stealing icons from Google Images and instead steal somebody's creative work from Behance which in turn consists of artwork stolen from companies providing payment services with expensive lawyers and all that. So please, read the disclaimer below. It's all for a good cause: Getting more people to use your payment services.
-
-## Usage
+## Installation
 I think the usage will be something like
 1. **Easy mode:** Install through Composer: `composer require tweemeterstudio/payment-icons`
 ```
@@ -21,6 +19,32 @@ I think the usage will be something like
 <link href="/path/to/payment-icons/payment-icons.min.css">
 ```
 You need to of course mind the path/to/ part when including the payment-icons.min.css file. The css file and `/assets` folder should reside in the same directory!
+## Usage
+To use the payment icons you can simply include an `<i class="payment-icons"><span class="paypal mastercard ideal"></span></i>` HTML tag to your page, where the classes of the `<span>` decide which payment provider icons are shown. The full list of available payment providers are mentioned below.
+## List of available payment providers and its corresponding CSS class
+| Payment Provider  | CSS Class |
+|---|---|
+| PayPal            | `paypal` |
+| Apple Pay         | `apple-pay` |
+| Google Pay        | `google-pay` |
+| Alipay            | `alipay` |
+| Mastercard        | `mastercard` |
+| Visa              | `visa` |
+| American Express  | `american-express` |
+| Diner's Club      | `diners-club` |
+| Maestro           | `maestro` |
+| VPay              | `vpay` |
+| Girocard          | `girocard` |
+| Klarna            | `klarna` |
+| Giropay           | `giropay` |
+| iDeal             | `ideal` |
+| Przelewy24        | `przelewy24` |
+| Bitcoin           | `bitcoin` |
+| Etherereum        | `ethereum` |
+| Ripple            | `ripple` |
 
 ## Disclaimer
-All logos, designs, brands and names are © to their respective owners. I don't own any of this, nor do I make money out of it. 
+All logos, designs, brands and names are © to their respective owners.
+Original icon design by [Spektrum 44](https://www.behance.net/gallery/93190297/Free-E-Commerce-Logos) on [Behance](https://www.behance.net/spektrum44). 
+
+Thank you 💙
