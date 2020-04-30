@@ -5,7 +5,7 @@ a{color:#3f78ea;text-decoration:underline}
 a:hover{color:green}
 h1,h2,h3,h4,h5,h6{font-weight:700;margin:0 0 .5em 0}
 p{margin:0 0 1em 0}
-pre{background:#ececec;padding:1em;margin:0 0 2em 0;border-left:4px solid green}
+pre{background:#ececec;padding:1em;margin:0 0 2em 0;border-left:4px solid green;overflow-x:scroll}
 code{background:#ffb6c1;padding:3px 5px 1px;line-height:1}
 table{width:100%;border:none;border-collapse:collapse;margin-bottom:2em}
 table thead{text-align:left;border-bottom:1px solid #ccc}

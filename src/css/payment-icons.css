@@ -16,23 +16,35 @@
   line-height: 1;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 .pi-payment-icons, .pi-payment-icons::before, .pi-payment-icons::after {
   margin: 0;
   padding: 0;
   line-height: 1;
+  box-sizing: border-box;
 }
 .pi-payment-icons .pi {
+  flex: 1;
   -webkit-font-smoothing: antialiased;
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
-  flex-grow: 1;
-  flex-basis: 3em;
-  height: 1.5em;
+  flex-basis: 60px;
+  margin: 0 20px;
+  height: 64px;
+  width: 10%;
   margin: .5em auto;
-  align-self: center;
+}
+.pi-payment-icons .pi.pi-small {
+  height: 32px;
+  width: 8%;
+}
+.pi-payment-icons .pi.pi-large {
+  height: 96px;
+  width: 15%;
 }
 .pi-payment-icons .pi.pi-paypal {
   background: url("../assets/paypal.svg") center center no-repeat;
@@ -87,6 +99,32 @@
 }
 .pi-payment-icons .pi.pi-ripple {
   background: url("../assets/ripple.svg") center center no-repeat;
+}
+
+@media (max-width: 550px) {
+  .pi-payment-icons {
+    flex-flow: column nowrap;
+  }
+  .pi-payment-icons .pi {
+    flex: 1;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    flex-basis: 60px;
+    margin: 0 20px;
+    height: 64px;
+    width: 10%;
+    margin: .5em auto;
+  }
+  .pi-payment-icons .pi.pi-small {
+    height: 32px;
+    width: 40%;
+  }
+  .pi-payment-icons .pi.pi-large {
+    height: 96px;
+    width: 80%;
+  }
 }
 
 /*# sourceMappingURL=payment-icons.css.map */
