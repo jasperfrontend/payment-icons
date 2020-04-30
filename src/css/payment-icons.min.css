@@ -1,7 +1,7 @@
 @charset "UTF-8";
-.pi-payment-icons{text-decoration:none;font-style:normal;font-weight:400;line-height:1;display:flex;flex-flow:row nowrap;justify-content:space-between}
+.pi-payment-icons{text-decoration:none;font-style:normal;font-weight:400;line-height:1;display:flex;flex-flow:row wrap;justify-content:space-between}
 .pi-payment-icons,.pi-payment-icons::after,.pi-payment-icons::before{margin:0;padding:0;line-height:1}
-.pi-payment-icons .pi{-webkit-font-smoothing:antialiased;font-style:normal;font-variant:normal;text-rendering:auto;flex-grow:1;height:1.5em;margin:auto;align-self:center}
+.pi-payment-icons .pi{-webkit-font-smoothing:antialiased;font-style:normal;font-variant:normal;text-rendering:auto;flex-grow:1;flex-basis:3em;height:1.5em;margin:.5em auto;align-self:center}
 .pi-payment-icons .pi.pi-paypal{background:url(../assets/paypal.svg) center center no-repeat}
 .pi-payment-icons .pi.pi-apple-pay{background:url(../assets/apple-pay.svg) center center no-repeat}
 .pi-payment-icons .pi.pi-google-pay{background:url(../assets/google-pay.svg) center center no-repeat}

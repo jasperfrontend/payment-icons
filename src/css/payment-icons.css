@@ -15,7 +15,7 @@
   font-weight: normal;
   line-height: 1;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 .pi-payment-icons, .pi-payment-icons::before, .pi-payment-icons::after {
@@ -29,8 +29,9 @@
   font-variant: normal;
   text-rendering: auto;
   flex-grow: 1;
+  flex-basis: 3em;
   height: 1.5em;
-  margin: auto;
+  margin: .5em auto;
   align-self: center;
 }
 .pi-payment-icons .pi.pi-paypal {

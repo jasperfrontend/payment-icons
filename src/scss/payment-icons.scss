@@ -16,7 +16,7 @@
     font-weight: normal;
     line-height: 1;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     &,
     &::before,
@@ -32,8 +32,9 @@
         font-variant: normal;
         text-rendering: auto;
         flex-grow: 1;
+        flex-basis: 3em;
         height: 1.5em;
-        margin: auto;
+        margin: .5em auto;
         align-self: center;
 
         &.pi-paypal { background: url('../assets/paypal.svg') center center no-repeat;}
@@ -56,3 +57,18 @@
         &.pi-ripple { background: url('../assets/ripple.svg') center center no-repeat;}
     }
 }
+//
+// @media (max-width: 550px) {
+//     .pi-payment-icons {
+//         flex-flow: column nowrap;
+//         justify-content: space-around;
+//         .pi {
+//             -webkit-font-smoothing: antialiased;
+//             font-style: normal;
+//             font-variant: normal;
+//             text-rendering: auto;
+//             margin: .5em auto;
+//             width: 100%;
+//         }
+//     }
+// }
