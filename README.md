@@ -2,7 +2,7 @@
 Payment Provider Icons with font-awesome-style markup. Demo: [https://jaspervandermeer.com/payment-icons/](https://jaspervandermeer.com/payment-icons/)
 | TODO |
 | --- |
-| Make it responsive |
+| ~Make it responsive~ |
 | Make icons stack or display inline(-block) |
 | Optimize the SVG |
 | Add multiple icon sizes with an extra css class |
