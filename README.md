@@ -20,12 +20,12 @@ I think the usage will be something like
 ```
 You need to of course mind the path/to/ part when including the payment-icons.min.css file. The css file and `/assets` folder should reside in the same directory!
 ## Usage
-To use the payment icons you can simply include 
+To use the payment icons you can simply include
 ```
-<ins class="payment-icons">
-    <i class="paypal"></i>
-    <i class="mastercard"></i>
-    <i class="ideal"></i>
+<ins class="pi-payment-icons">
+    <i class="pi pi-paypal"></i>
+    <i class="pi pi-mastercard"></i>
+    <i class="pi pi-ideal"></i>
 </ins>
 ```
 to your page, where the classes of the `<i>` within the `<ins>` decide which payment provider icons are shown. The full list of available payment providers are mentioned below.
@@ -53,6 +53,6 @@ to your page, where the classes of the `<i>` within the `<ins>` decide which pay
 
 ## Disclaimer
 All logos, designs, brands and names are © to their respective owners.
-Original icon design by [Spektrum 44](https://www.behance.net/gallery/93190297/Free-E-Commerce-Logos) on [Behance](https://www.behance.net/spektrum44). 
+Original icon design by [Spektrum 44](https://www.behance.net/gallery/93190297/Free-E-Commerce-Logos) on [Behance](https://www.behance.net/spektrum44).
 
 Thank you 💙

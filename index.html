@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Payment Icons - Original Design by Spektrum 44 on Behance. Created by tweemeterstudio</title>
+    <link rel="stylesheet" href="demo/css/style.min.css">
+    <link rel="stylesheet" href="src/css/payment-icons.min.css">
+</head>
+<body>
+<div class="container">
+    <h1>payment-icons</h1>
+    <p>Payment Provider Icons with font-awesome-style markup.</p>
+    <div class="highlight">
+        <p><ins class="pi-payment-icons">
+            <i class="pi pi-paypal"></i>
+            <i class="pi pi-mastercard"></i>
+            <i class="pi pi-ideal"></i>
+            <i class="pi pi-google-pay"></i>
+            <i class="pi pi-american-express"></i>
+            <i class="pi pi-klarna"></i>
+            <i class="pi pi-przelewy24"></i>
+        </ins></p>
+    </div>
+
+
+    <h2>Description</h2>
+    <p>This provides an easy way to include payment provider icons in your website or app. It's always a hassle to get a list of supported payment providers so we usually resort to Google Images to steal somebody else's work - And I know you did that, just like I did.</p>
+
+    <p>Since <a href="https://www.youtube.com/watch?v=HmZm8vNHBSU">stealing is wrong</a>, I decided to stop stealing icons from Google Images and instead <del>steal</del> <ins>utilize</ins> somebody's creative work from Behance which in turn consists of artwork stolen from companies providing payment services with expensive lawyers and all that. So please, read the disclaimer below. It's all for a good cause: Getting more people to use your payment services.</p>
+
+    <h2>Installation</h2>
+    <h3>Easy mode: Composer</h3>
+    <p>1. Install through composer:</p>
+    <pre>composer require tweemeterstudio/payment-icons</pre>
+    <p>Check if this line exists in your <strong>composer.json</strong> file:</p>
+<pre>
+{
+    "require": {
+        "tweemeterstudio/payment-icons": "1.0.*"
+    }
+}</pre>
+
+
+    <p>2. Include the following line in the <code>&lt;head&gt;</code> of your document:</p>
+    <pre>&lt;link href="/path/to/payment-icons/payment-icons.min.css"&gt</pre>
+
+    <p>You need to of course mind the <code>path/to/</code> part when including the payment-icons.min.css file. The css file and <code>/assets</code> folder should reside in the <strong>same directory</strong>.</p>
+
+    <h2>Usage</h2>
+    <p>To use the payment icons you can simply include&hellip;</p>
+
+<pre>
+&#x3C;ins class=&#x22;pi-payment-icons&#x22;&#x3E;
+    &#x3C;i class=&#x22;pi pi-paypal&#x22;&#x3E;&#x3C;/i&#x3E;
+    &#x3C;i class=&#x22;pi pi-mastercard&#x22;&#x3E;&#x3C;/i&#x3E;
+    &#x3C;i class=&#x22;pi pi-ideal&#x22;&#x3E;&#x3C;/i&#x3E;
+&#x3C;/ins&#x3E;
+</pre>
+
+    <p>&hellip;to your page, where the classes of the <code>&lt;i&gt;</code> within the <code>&lt;ins&gt;</code> decide which payment provider icons are shown. The full list of available payment providers are mentioned below.
+
+    <h2>List of available payment providers</h2>
+    <p>&hellip;and their corresponding CSS class</p>
+    <table>
+    <thead>
+    <tr>
+    <th>Payment Provider</th>
+    <th>CSS Class</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>PayPal</td>
+    <td><code>paypal</code></td>
+    </tr>
+    <tr>
+    <td>Apple Pay</td>
+    <td><code>apple-pay</code></td>
+    </tr>
+    <tr>
+    <td>Google Pay</td>
+    <td><code>google-pay</code></td>
+    </tr>
+    <tr>
+    <td>Alipay</td>
+    <td><code>alipay</code></td>
+    </tr>
+    <tr>
+    <td>Mastercard</td>
+    <td><code>mastercard</code></td>
+    </tr>
+    <tr>
+    <td>Visa</td>
+    <td><code>visa</code></td>
+    </tr>
+    <tr>
+    <td>American Express</td>
+    <td><code>american-express</code></td>
+    </tr>
+    <tr>
+    <td>Diner&#39;s Club</td>
+    <td><code>diners-club</code></td>
+    </tr>
+    <tr>
+    <td>Maestro</td>
+    <td><code>maestro</code></td>
+    </tr>
+    <tr>
+    <td>VPay</td>
+    <td><code>vpay</code></td>
+    </tr>
+    <tr>
+    <td>Girocard</td>
+    <td><code>girocard</code></td>
+    </tr>
+    <tr>
+    <td>Klarna</td>
+    <td><code>klarna</code></td>
+    </tr>
+    <tr>
+    <td>Giropay</td>
+    <td><code>giropay</code></td>
+    </tr>
+    <tr>
+    <td>iDeal</td>
+    <td><code>ideal</code></td>
+    </tr>
+    <tr>
+    <td>Przelewy24</td>
+    <td><code>przelewy24</code></td>
+    </tr>
+    <tr>
+    <td>Bitcoin</td>
+    <td><code>bitcoin</code></td>
+    </tr>
+    <tr>
+    <td>Etherereum</td>
+    <td><code>ethereum</code></td>
+    </tr>
+    <tr>
+    <td>Ripple</td>
+    <td><code>ripple</code></td>
+    </tr>
+    </tbody>
+    </table>
+
+    <h2>Disclaimer</h2>
+    <p>All logos, designs, brands and names are © to their respective owners.</p>
+
+    <p>Original icon design by <a href="https://www.behance.net/gallery/93190297/Free-E-Commerce-Logos">Spektrum 44</a> on <a href="https://www.behance.net/spektrum44">Behance</a>.
+
+    <p>Thank you 💙</p>
+
+</div>
+</body>
+</html>
