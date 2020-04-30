@@ -14,7 +14,7 @@ I think the usage will be something like
     }
 }
 ```
-2. **Also quite easy mode:** Download the zip of this repo, extract its folder to your project and include the following line in the `<head>` of your document:
+2. **Also quite easy mode:** Download the [zip of this repo](https://github.com/tweemeterstudio/payment-icons/archive/0.1.zip), extract its folder to your project and include the following line in the `<head>` of your document:
 ```
 <link href="/path/to/payment-icons/payment-icons.min.css">
 ```
