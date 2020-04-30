@@ -4,7 +4,7 @@
     "description": "Payment Provider Icons with font-awesome-style markup.",
     "keywords": ["interface","payment","icons","svg-icons"],
     "homepage": "https://jaspervandermeer.com/payment-icons/",
-    "license": "GNU",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jasper van der Meer",
