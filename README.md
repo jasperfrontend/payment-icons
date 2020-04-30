@@ -1,5 +1,5 @@
 # payment-icons
-Payment Provider Icons with font-awesome-style markup
+Payment Provider Icons with font-awesome-style markup. Demo: [https://jaspervandermeer.com/payment-icons/](https://jaspervandermeer.com/payment-icons/)
 ## Description
 This provides an easy way to include payment provider icons in your website or app. It's always a hassle to get a list of supported payment providers so we usually resort to Google Images to steal somebody else's work - And I know you did that, just like I did.
 
