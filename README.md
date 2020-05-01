@@ -6,7 +6,7 @@ Payment Provider Icons with almost kinda font-awesome-style markup. Demo: [https
 | TODO |
 | --- |
 | ~Make it responsive~ |
-| Make icons stack or display inline(-block) |
+| ~Make icons stack or display inline(-block)~ |
 | Optimize the SVG |
 | Add multiple icon sizes with an extra css class |
 
