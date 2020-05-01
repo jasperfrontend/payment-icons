@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAYA,iBAAkB,CACd,eAAe,CAAE,IAAI,CACrB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,MAAM,CACnB,WAAW,CAAE,CAAC,CACd,kDACS,CACL,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,WAAW,CAAE,CAAC",
-"sources": ["../scss/payment-icons.scss"],
-"names": [],
-"file": "payment-icons.min.css"
-}
