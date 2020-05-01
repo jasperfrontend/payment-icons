@@ -31,7 +31,7 @@ Check if this line exists in your composer.json file:
 }
 ```
 ### **Also quite easy mode:** Manual download:
-Download the [zip of this repo](https://github.com/tweemeterstudio/payment-icons/archive/0.1.zip), extract its folder to your project.
+Download the [zip of this repo](https://github.com/tweemeterstudio/payment-icons/archive/master.zip), extract its folder to your project.
 ---
 ## Integration in your project
 Include the following line in the `<head>` of your document:
